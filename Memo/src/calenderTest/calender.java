@@ -41,13 +41,7 @@ public class calender extends JFrame  implements ActionListener {
 		int setMonth = nTime.getMonth(); // セットする月
 		int setDay = nTime.getDay(); // セットする日にち
 
-		Calendar calendar = Calendar.getInstance();
-		calendar.set(setYear, setMonth - 1, 1); // 日付のセット(月初めの日付)
-
-		int year = calendar.get(Calendar.YEAR);// ↑でセットされた年を読み込む
-		int dayofweek = calendar.get(Calendar.DAY_OF_WEEK); // 曜日の数字。
-		// このフィールドの値は1から7で、SUNDAY(1)、MONDAY(2)、TUESDAY(3)、WEDNESDAY(4)、THURSDAY(5)、FRIDAY(6)、およびSATURDAY(7)になります。
-		// calendar.setで月初めの日付をゲットしているので、この曜日は必ず月初めの曜日となる。
+		
 
 		
 	}
